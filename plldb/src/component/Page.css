@@ -1,0 +1,4 @@
+.disable-select-underline::before,
+.disable-select-underline::after {
+	display: none;
+}

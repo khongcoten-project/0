@@ -1,0 +1,14 @@
+.use-material-design-scrollbar::-webkit-scrollbar,
+.use-material-design-scrollbar *::-webkit-scrollbar {
+	width: 5px;
+	height: 5px;
+	background: transparent;
+}
+.use-material-design-scrollbar-light::-webkit-scrollbar-thumb,
+.use-material-design-scrollbar-light *::-webkit-scrollbar-thumb {
+	background: rgba(0, 0, 0, 0.3);
+}
+.use-material-design-scrollbar-dark::-webkit-scrollbar-thumb,
+.use-material-design-scrollbar-dark *::-webkit-scrollbar-thumb {
+	background: rgba(255, 255, 255, 0.3);
+}
